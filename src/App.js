@@ -156,14 +156,17 @@ class Item extends Component {
         <div style={styles.navContainer}>
           <img style={styles.navLogo} src={logo} alt="calithecat" />
           <div style={styles.navLinksContainer}>
-            <a style={styles.navLink} href="http://midominio.com">
-              HOME
+            <a style={styles.navLink} href="http://lareposteriagdl.com/">
+              INICIO
             </a>
-            <a style={styles.navLink} href="http://midominio.com/blog">
-              BLOG
+            <a style={styles.navLink} href="http://lareposteriagdl.com/about/">
+              ACERCA DE...
             </a>
-            <a style={styles.navLink} href="http://midominio.com/contact">
-              CONTACT
+            <a
+              style={styles.navLink}
+              href="http://lareposteriagdl.com/contact/"
+            >
+              CONTACTO
             </a>
           </div>
         </div>

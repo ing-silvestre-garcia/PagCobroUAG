@@ -3,6 +3,9 @@ import logo from "./logo.png";
 import methods from "./methods_statement_cards.png";
 import oxxopay from "./oxxopay.svg";
 import paypal from "./paypal.svg";
+import cheese from "./cheese.jpg";
+import zana from "./zana.jpg";
+import tarta from "./tarta.png";
 import "./App.css";
 import Switch from "react-router-dom/es/Switch";
 import Route from "react-router-dom/es/Route";
@@ -115,9 +118,9 @@ class Item extends Component {
       title: "Cheesecake de caramelo",
       description: "Cheesecake con un toque dulce y fácil de hacer",
       price: 280.0,
-      image:
-        "http://lareposteriagdl.com/wp-content/uploads/2018/01/descarga.jpg",
-      shipping: "No shipping"
+      image: cheese,
+      shipping:
+        "Envio de 4 a 5 dias hábiles en pedidos mayores a $100. Y envios de 2 a 3 dias hábiles en pedidos mayores a $300"
     },
     {
       id: "2",
@@ -125,9 +128,9 @@ class Item extends Component {
       description:
         "¿Quién habría adivinado que una piña, compota de manzana y zanahorias podrían ser parte de un postre tan sabroso?",
       price: 300.0,
-      image:
-        "http://lareposteriagdl.com/wp-content/uploads/2018/01/pastel_zanahoria.jpg",
-      shipping: "No shipping"
+      image: zana,
+      shipping:
+        "Envio de 4 a 5 dias hábiles en pedidos mayores a $100. Y envios de 2 a 3 dias hábiles en pedidos mayores a $300"
     },
     {
       id: "3",
@@ -135,15 +138,8 @@ class Item extends Component {
       description:
         "¡La combinación perfecta del dulce en un pastel esponjoso y sabroso!",
       price: 200.0,
-      image:
-        "http://lareposteriagdl.com/wp-content/uploads/2018/01/torta_rellena_cremosa.png",
-      shipping: `Orders are printed and shipped when the time expires or earlier.
-              You can expect your package to arrive 10 - 13 business days after
-              the product prints. Expedited or Rush shipping may be available
-              depending upon the product(s) selected and the destination
-              country. Shipping costs start at: $3.99 for the first apparel item
-              and $2.00 for each additional apparel item. Products are fulfilled
-              in the US`
+      image: tarta,
+      shipping: `Envio de 4 a 5 dias hábiles en pedidos mayores a $100. Y envios de 2 a 3 dias hábiles en pedidos mayores a $300`
     }
   ];
   render() {
